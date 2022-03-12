@@ -1,0 +1,52 @@
+
+
+/*with given code all h1 text will be displayed in blueviolet color*/
+h1 {
+
+    color: blueviolet;
+    font-weight: 900;
+
+}
+
+/*Every p will be shown with coral backround, also text is aligned in center and font-family is Arial, Helvetica, sans-serif */
+
+p {
+
+
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Grouping selector, when you use .li you will only see the brown font, but if you choose .des then you will see bold text and yellowgreen text color*/
+
+.des,
+.li{
+
+
+    background-color: brown;
+}
+
+.des {
+
+    font-weight: 900;
+    color: yellowgreen;
+
+}
+
+
+/*Every single li element will be shown in this given color, unless you aren't linking this css file into your html file*/
+
+li {
+
+
+    color: rgb(223, 8, 198);
+}
+
+/*You will see this given background-color only if you will use this ID(u can use it only once).*/
+
+#pizza-recipe {
+
+
+    background-color: rgb(43, 226, 67);
+} 
